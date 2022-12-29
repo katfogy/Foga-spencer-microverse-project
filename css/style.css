@@ -47,9 +47,8 @@ li{
     list-style-type: none;
 }
 
-.logo{
-    font-size: 1.5rem;
-    text-transform: uppercase;
+#header-img{
+    width: 200px;
 
 }
 
@@ -76,7 +75,7 @@ form{
     justify-content: center;
     align-items: center;
 }
-#top h3{
+#top h1{
     margin: 20px 0;
     text-align: center;
     width: 100%;
@@ -129,7 +128,7 @@ color: orangered;
 }
 
 
-#video{
+.video{
 max-width: 500px;
 height: 300px;
 margin: 0 auto;
@@ -242,7 +241,7 @@ footer ul{
         justify-content: center;
     }
 
-    #top h3{
+    #top h1{
         margin: 40px auto;
     }
 }
