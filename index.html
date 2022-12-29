@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
 
-    <header>
-    <nav>
-      <div class="logo">Our Store</div>
+    <header id="header">
+    <nav id="nav-bar">
+      <div class="logo" id="header-img">Our Store</div>
       <div class="menu">
         <ul>
-          <li class="item">Features</li>
-          <li class="item">How It Works</li>
-          <li class="item">Pricing</li>
+          <li class="nav-link"><a href="#">Features</a></li>
+          <li class="nav-link"><a href="#">How It Works</a></li>
+          <li class="nav-link"><a href="#">Pricing</a></li>
         </ul>
       </div>
     </nav>
@@ -24,31 +25,109 @@
     <main>
       <section id="top">
         <h3>Handcrafted, home-made masterpieces</h3>
-        <input type="email" placeholder="Enter Your Email" required>
+       <form action="" id="form">
+        <input type="email" id="email" placeholder="Enter Your Email" required>
         <button>Get Started</button>
+       </form>
+      </section>
+<!-- services Sections -->
+      <section id="services">
+        <div class="items">
+          <i class="fa-solid fa-fire"></i>
+          <div class="text">
+            <h3>Premium Materials</h3>
+          <p>Our trombones use the shiniest brass which is sourced locally. 
+            This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+    
+
+
+        <div class="items">
+          <i class="fa-solid fa-truck"></i>
+          <div class="text">
+           <h3>Fast Shipping</h3>
+          <p>We make sure you recieve your trombone as soon as we have 
+            finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>
+        </div>
+
+
+        <div class="items">
+          <i class="fa-solid fa-battery-full"></i>
+          <div class="text">
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no 
+              damages or faults and we will check and test the pitch of 
+              your instrument.</p>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="video">
+        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+      </section>
+      <!-- price seection -->
+      <section id="price">
+        <div class="price-item">
+          <div class="top">
+            <h4>Tenor Trombone</h4>
+          </div>
+          <div class="price">$600</div>
+          <div class="text">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <button>Select</button>
+        </div>
+
+
+        <div class="price-item">
+          <div class="top">
+            <h4>Bass Trombone</h4>
+          </div>
+          <div class="price">$900</div>
+          <div class="text">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <button>Select</button>
+        </div>
+
+
+        <div class="price-item">
+          <div class="top">
+            <h4>Valve Trombone</h4>
+          </div>
+          <div class="price">$1200</div>
+          <div class="text">
+            <p>Plays similar to a Trumpet</p>
+            <p>Great for Jazz Bands</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+          </div>
+          <button>Select</button>
+        </div>
       </section>
     </main>
 
-    <div>
-      <div>
-        <p>Premium Materials</p>
-        <p>Our trombones use the shiniest brass which is sourced locally. 
-          This will increase the longevity of your purchase.</p>
+    <footer>
+      <div class="container">
+        <ul class="links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
       </div>
+    </footer>
   
-      <div>
-        <p>Fast Shipping</p>
-        <p>We make sure you recieve your trombone as soon as we have 
-          finished making it. We also provide free returns if you are not satisfied.</p>
-      </div>
-  
-      <div>
-        <p>Quality Assurance</p>
-        <p>For every purchase you make, we will ensure there are no 
-          damages or faults and we will check and test the pitch of 
-          your instrument.</p>
-      </div>
-    </div>
    
     
 
